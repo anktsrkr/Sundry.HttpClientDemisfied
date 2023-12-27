@@ -1,0 +1,14 @@
+C:\Users\vn5590u\Projects\Sundry.HttpClientDemisfied\src\Sundry.HttpClientDemisfied.BenchMark\bin\Debug\net8.0\Sundry.HttpClientDemisfied.BenchMark.exe
+C:\Users\vn5590u\Projects\Sundry.HttpClientDemisfied\src\Sundry.HttpClientDemisfied.BenchMark\bin\Debug\net8.0\Sundry.HttpClientDemisfied.BenchMark.deps.json
+C:\Users\vn5590u\Projects\Sundry.HttpClientDemisfied\src\Sundry.HttpClientDemisfied.BenchMark\bin\Debug\net8.0\Sundry.HttpClientDemisfied.BenchMark.runtimeconfig.json
+C:\Users\vn5590u\Projects\Sundry.HttpClientDemisfied\src\Sundry.HttpClientDemisfied.BenchMark\bin\Debug\net8.0\Sundry.HttpClientDemisfied.BenchMark.dll
+C:\Users\vn5590u\Projects\Sundry.HttpClientDemisfied\src\Sundry.HttpClientDemisfied.BenchMark\bin\Debug\net8.0\Sundry.HttpClientDemisfied.BenchMark.pdb
+C:\Users\vn5590u\Projects\Sundry.HttpClientDemisfied\src\Sundry.HttpClientDemisfied.BenchMark\obj\Debug\net8.0\Sundry.HttpClientDemisfied.BenchMark.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vn5590u\Projects\Sundry.HttpClientDemisfied\src\Sundry.HttpClientDemisfied.BenchMark\obj\Debug\net8.0\Sundry.HttpClientDemisfied.BenchMark.AssemblyInfoInputs.cache
+C:\Users\vn5590u\Projects\Sundry.HttpClientDemisfied\src\Sundry.HttpClientDemisfied.BenchMark\obj\Debug\net8.0\Sundry.HttpClientDemisfied.BenchMark.AssemblyInfo.cs
+C:\Users\vn5590u\Projects\Sundry.HttpClientDemisfied\src\Sundry.HttpClientDemisfied.BenchMark\obj\Debug\net8.0\Sundry.HttpClientDemisfied.BenchMark.csproj.CoreCompileInputs.cache
+C:\Users\vn5590u\Projects\Sundry.HttpClientDemisfied\src\Sundry.HttpClientDemisfied.BenchMark\obj\Debug\net8.0\Sundry.HttpClientDemisfied.BenchMark.dll
+C:\Users\vn5590u\Projects\Sundry.HttpClientDemisfied\src\Sundry.HttpClientDemisfied.BenchMark\obj\Debug\net8.0\refint\Sundry.HttpClientDemisfied.BenchMark.dll
+C:\Users\vn5590u\Projects\Sundry.HttpClientDemisfied\src\Sundry.HttpClientDemisfied.BenchMark\obj\Debug\net8.0\Sundry.HttpClientDemisfied.BenchMark.pdb
+C:\Users\vn5590u\Projects\Sundry.HttpClientDemisfied\src\Sundry.HttpClientDemisfied.BenchMark\obj\Debug\net8.0\Sundry.HttpClientDemisfied.BenchMark.genruntimeconfig.cache
+C:\Users\vn5590u\Projects\Sundry.HttpClientDemisfied\src\Sundry.HttpClientDemisfied.BenchMark\obj\Debug\net8.0\ref\Sundry.HttpClientDemisfied.BenchMark.dll

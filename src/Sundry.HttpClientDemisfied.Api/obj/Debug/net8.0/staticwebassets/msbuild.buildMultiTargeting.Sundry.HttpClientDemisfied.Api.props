@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Sundry.HttpClientDemisfied.Api.props" />
+</Project>

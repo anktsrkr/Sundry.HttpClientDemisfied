@@ -1,0 +1,32 @@
+sequenceDiagram
+title ODS002 -2 ERDS to Megamenu Sequence Diagram
+
+actor HttpCient
+Note over HttpCient,Delegation Handler: PostAsync/GetAsync etc.<br/> Calls SendAsync inernally
+HttpCient->>+Delegation Handler: Calls SendAsync
+Delegation Handler->>+Pipeline:  Calls ExecuteOutcomeAsync
+Pipeline->>+Retry: Calls ExecuteCore
+Note over Retry,Downstream Service: Initial Attempt
+Retry->>+Downstream Service: Invoke
+Downstream Service->>-Retry: Fails
+Retry-->Retry:Sleeps
+alt Service is Available
+    Note over Downstream Service,Retry: 1st Retry Attempt
+    Retry->>+Downstream Service: Invoke
+    Downstream Service->>-Retry: Returns Valid Response
+    Retry->>+Pipeline: Returns Valid Response
+    Pipeline->>+Delegation Handler: Returns Valid Response
+    Delegation Handler->>+HttpCient: Returns Valid Response
+
+else Service is not Available
+    Note over Downstream Service,Retry: 1st Retry Attempt
+    Retry->>+Downstream Service: Invoke
+    Downstream Service->>-Retry: Fails
+    Retry-->Retry:Sleeps
+    Note over Downstream Service,Retry: 2nd Retry Attempt
+    Retry->>+Downstream Service: Invoke
+    Downstream Service->>-Retry: Fails
+    Retry->>+Pipeline: Propagates Failure
+    Pipeline->>+Delegation Handler: Propagates Failure
+    Delegation Handler->>+HttpCient: Propagates Failure
+end
